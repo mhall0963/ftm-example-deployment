@@ -2,7 +2,7 @@
 
 ## Initial setup
 
-1. Add a `.env` file that contains the PRIVATE_KEY of the wallet that will be used to deploy the contracts and API_KEY (if you want to verify using hardhat-etherscan)
+1. Add a `.env` file that contains the PRIVATE_KEY of the wallet that will be used to deploy the contracts and API_KEY (if you want to verify using hardhat-verify)
 
 ```
 PRIVATE_KEY = XXXXXXXXXX
@@ -38,4 +38,3 @@ npx hardhat run --network testnet scripts/sample-script.js
 
 4. You should see the deployed contract address
 <img width="452" alt="4" src="https://user-images.githubusercontent.com/38925737/157434102-43fdaa77-30a7-4b0e-9b6e-54eb7d055c2b.png">
-
